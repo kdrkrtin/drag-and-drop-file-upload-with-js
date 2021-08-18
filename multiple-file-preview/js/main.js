@@ -21,7 +21,7 @@ $(document).ready(function () {
         }
 
     });
-    
+
     //Sürüklenen dosyalara bu fonksiyon içerisine iletişmiş olan 'files' parametresi ile ulaşabilirsiniz
     function upload(files) {
         var preview = $('#preview');
@@ -33,7 +33,7 @@ $(document).ready(function () {
 
         function readAndPreview(file) {
 
-            // Make sure `file.name` matches our extensions criteria
+            // Yüklenen dosyaların uzantısına göre işlemlerde yapabilirsiniz.
             if (!/\.(jpe?g|png|gif)$/i.test(file.name)) {
                 return alert(`${file.name}` + " uygun formatta bir dosya değil! Tekrar Deneyiniz.");
             } else {
