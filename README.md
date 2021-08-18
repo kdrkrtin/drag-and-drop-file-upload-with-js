@@ -1,4 +1,4 @@
-# jquery-ile-drag-and-drop
+# jquery-ile-drag-and-drop-file-upload
 Jquery ile sürükle bırak yaparak görsel yükleme ve önizleme yapma. Gerekli kodlar paylaşılmıştır. İşinize yarayacağını düşünüyorum.
 
 # Genel Bilgi
