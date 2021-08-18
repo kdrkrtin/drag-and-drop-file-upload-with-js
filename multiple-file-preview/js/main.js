@@ -21,6 +21,8 @@ $(document).ready(function () {
         }
 
     });
+    
+    //Sürüklenen dosyalara bu fonksiyon içerisine iletişmiş olan 'files' parametresi ile ulaşabilirsiniz
     function upload(files) {
         var preview = $('#preview');
 
