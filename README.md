@@ -1,4 +1,4 @@
-# jquery-ile-drag-and-drop-yapımı
+# js-ile-drag-and-drop-kullanımı
 Jquery ile sürükle bırak yaparak görsel yükleme ve önizleme yapma. Gerekli kodlar paylaşılmıştır. İşinize yarayacağını düşünüyorum. Dosya içerisinde hem Native JavaScript hem de Jquery ile sürükle bırak işleminin yapımı mecvut.
 
 # Jquery ile Sürükle Bırak Yapımı
