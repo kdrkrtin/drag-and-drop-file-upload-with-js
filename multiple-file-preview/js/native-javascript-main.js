@@ -1,6 +1,7 @@
 document.addEventListener('readystatechange', function () {
     if (this.readyState == 'complete') {
         var dragAndDrop = document.getElementById('drag-and-drop-zone');
+        var inputFiles = document.getElementById('files');
         dragAndDrop.addEventListener('dragenter', function (e) {
             e.preventDefault();
             e.stopPropagation();
@@ -21,6 +22,9 @@ document.addEventListener('readystatechange', function () {
             } else {
                 console.log('Görseller Yüklenemedi...');
             }
+        });
+        inputFiles.addEventListener('change', function(){
+            upload(this.files);
         });
 
         //Sürüklenen dosyalara bu fonksiyon içerisine iletişmiş olan 'files' parametresi ile ulaşabilirsiniz
@@ -44,7 +48,7 @@ document.addEventListener('readystatechange', function () {
                         image.title = file.name;
                         image.src = this.result;
                         image.style = 'height: 100px; margin-right: 5px';
-                        preview.appendChild(image);
+                        preview.prepend(image);
                     });
                     reader.readAsDataURL(file);
                 }
